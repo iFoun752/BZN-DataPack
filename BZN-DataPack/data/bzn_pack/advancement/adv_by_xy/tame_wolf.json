@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "bone"
+    },
+    "title": "可爱的狗子",
+    "description": "成功驯服了宝可梦:iFoun752",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "bzn_pack:adv_by_xy/by_xiaoyang2",
+  "criteria": {
+    "A": {
+      "trigger": "tame_animal",
+      "conditions": {
+        "criteria": {
+          "example": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+              "entity": {
+                "type": "minecraft:wolf"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "A"
+    ]
+  ],
+  "rewards": {}
+}
