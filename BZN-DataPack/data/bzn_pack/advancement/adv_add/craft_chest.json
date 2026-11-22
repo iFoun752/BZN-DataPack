@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "chest"
+    },
+    "title": "你学会了?",
+    "description": "使用原木直接合成箱子",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "bzn_pack:adv_add/select",
+  "criteria": {
+    "A": {
+      "trigger": "recipe_crafted",
+      "conditions": {
+        "recipe_id": "bzn_pack:chest_log/chest_log"
+      }
+    },
+    "B": {
+      "trigger": "recipe_crafted",
+      "conditions": {
+        "recipe_id": "bzn_pack:chest_log/chest_bamboo"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "A",
+      "B"
+    ]
+  ],
+  "rewards": {}
+}

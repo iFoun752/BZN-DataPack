@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "light"
+    },
+    "title": "欢迎使用BZN数据包",
+    "description": "您已成功在客户端/服务端装载本数据包",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:gui/advancements/backgrounds/adventure"
+  },
+  "criteria": {
+    "A": {
+      "trigger": "tick",
+      "conditions": {
+        "player": {}
+      }
+    }
+  },
+  "requirements": [
+    [
+      "A"
+    ]
+  ],
+  "rewards": {}
+}

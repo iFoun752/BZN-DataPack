@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "enchanted_golden_apple"
+    },
+    "title": "这不对吧...",
+    "description": "使用金块合成附魔金苹果",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "bzn_pack:adv_add/select",
+  "criteria": {
+    "A": {
+      "trigger": "recipe_crafted",
+      "conditions": {
+        "recipe_id": "bzn_pack:gold_apple/enchanted_golden_apple"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "A"
+    ]
+  ],
+  "rewards": {
+    "experience": 5
+  }
+}

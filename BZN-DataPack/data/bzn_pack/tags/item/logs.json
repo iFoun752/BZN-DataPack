@@ -1,0 +1,37 @@
+{
+  "values": [
+    {
+      "id": "oak_log"
+    },
+    {
+      "id": "acacia_log"
+    },
+    {
+      "id": "birch_log"
+    },
+    {
+      "id": "dark_oak_log"
+    },
+    {
+      "id": "jungle_log"
+    },
+    {
+      "id": "spruce_log"
+    },
+    {
+      "id": "pale_oak_log"
+    },
+    {
+      "id": "cherry_log"
+    },
+    {
+      "id": "mangrove_log"
+    },
+    {
+      "id": "minecraft:crimson_stem"
+    },
+    {
+      "id": "minecraft:warped_stem"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+# 打好的成品数据包，发布走 GitHub Releases
+*.zip
+
+# 本地工具数据 / 临时解压目录
+.workbuddy/
+/tmp-build/
+/out/
+
+# 系统与编辑器垃圾
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp

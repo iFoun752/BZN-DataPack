@@ -1,0 +1,23 @@
+{
+  "category": "building",
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "id": "chest",
+    "count": 8
+  },
+  "pattern": [
+    "ABC",
+    "D F",
+    "HIJ"
+  ],
+  "key": {
+    "A": "bamboo_block",
+    "B": "bamboo_block",
+    "C": "bamboo_block",
+    "D": "bamboo_block",
+    "F": "bamboo_block",
+    "H": "bamboo_block",
+    "I": "bamboo_block",
+    "J": "bamboo_block"
+  }
+}

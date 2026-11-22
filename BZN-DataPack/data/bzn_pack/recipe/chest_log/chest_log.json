@@ -1,0 +1,23 @@
+{
+  "category": "building",
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "id": "chest",
+    "count": 16
+  },
+  "pattern": [
+    "ABC",
+    "D F",
+    "HIJ"
+  ],
+  "key": {
+    "A": "#bzn_pack:logs",
+    "B": "#bzn_pack:logs",
+    "C": "#bzn_pack:logs",
+    "D": "#bzn_pack:logs",
+    "F": "#bzn_pack:logs",
+    "H": "#bzn_pack:logs",
+    "I": "#bzn_pack:logs",
+    "J": "#bzn_pack:logs"
+  }
+}
