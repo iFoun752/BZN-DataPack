@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "pufferfish"
+    },
+    "title": "信仰之跃",
+    "description": "从30格以上落下",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "bzn_pack:adv_by_xy/by_xiaoyang2",
+  "criteria": {
+    "A": {
+      "trigger": "fall_from_height",
+      "conditions": {
+        "start_position": {
+          "dimension": "overworld"
+        },
+        "distance": {
+          "y": {
+            "min": 30,
+            "max": 1024
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "A"
+    ]
+  ],
+  "rewards": {}
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "orange_dye"
+    },
+    "title": "???",
+    "description": "可能是些杂七杂八的东西",
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true,
+    "background": "minecraft:gui/advancements/backgrounds/stone"
+  },
+  "criteria": {
+    "A": {
+      "trigger": "tick"
+    }
+  },
+  "requirements": [
+    [
+      "A"
+    ]
+  ],
+  "rewards": {}
+}
