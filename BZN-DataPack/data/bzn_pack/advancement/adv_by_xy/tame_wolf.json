@@ -13,17 +13,10 @@
   "parent": "bzn_pack:adv_by_xy/by_xiaoyang2",
   "criteria": {
     "A": {
-      "trigger": "tame_animal",
+      "trigger": "minecraft:tame_animal",
       "conditions": {
-        "criteria": {
-          "example": {
-            "trigger": "minecraft:tame_animal",
-            "conditions": {
-              "entity": {
-                "type": "minecraft:wolf"
-              }
-            }
-          }
+        "entity": {
+          "type": "minecraft:wolf"
         }
       }
     }
